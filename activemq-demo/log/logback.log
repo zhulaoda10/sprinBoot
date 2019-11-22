@@ -1,0 +1,32 @@
+2019-11-13 08:57:30,441 [http-nio-8888-exec-3] []  ERROR com.example.demo.jwt.JwtUtil - The Token has expired on Tue Nov 12 16:20:02 CST 2019.
+2019-11-13 08:57:31,229 [http-nio-8888-exec-3] []  ERROR com.example.demo.jwt.JwtUtil - token解码异常
+2019-11-13 09:03:04,968 [main] []  INFO  com.example.demo.DemoApplication - Starting DemoApplication on AB-201907040348 with PID 9136 (E:\springboot-study-master\activemq-demo\target\classes started by Administrator in E:\springboot-study-master\activemq-demo)
+2019-11-13 09:03:04,988 [main] []  DEBUG com.example.demo.DemoApplication - Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-11-13 09:03:04,990 [main] []  INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-11-13 09:03:27,144 [main] []  INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-11-13 09:03:27,229 [main] []  INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-11-13 09:03:27,279 [main] []  INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-13 09:03:27,280 [main] []  INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-11-13 09:03:27,325 [main] []  INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-11-13 09:03:27,326 [main] []  INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-11-13 09:03:27,326 [main] []  INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-13 09:03:27,327 [main] []  INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-13 09:03:27,465 [main] []  INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-11-13 09:03:28,204 [main] []  INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-13 09:03:28,205 [main] []  INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 22950 ms
+2019-11-13 09:03:31,076 [main] []  INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 09:03:33,237 [main] []  INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2019-11-13 09:03:33,634 [main] []  WARN  org.apache.activemq.broker.BrokerService - Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 864 mb - resetting to 70% of maximum available: 604 mb
+2019-11-13 09:03:33,963 [main] []  INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-11-13 09:03:34,541 [JMX connector] []  INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-11-13 09:03:34,747 [main] []  INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.15.10 (localhost, ID:AB-201907040348-60822-1573607014335-0:1) is starting
+2019-11-13 09:03:34,777 [main] []  INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.15.10 (localhost, ID:AB-201907040348-60822-1573607014335-0:1) started
+2019-11-13 09:03:34,777 [main] []  INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-11-13 09:03:34,936 [main] []  INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-11-13 09:03:35,123 [main] []  INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-11-13 09:03:35,404 [main] []  INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-11-13 09:03:35,415 [main] []  INFO  com.example.demo.DemoApplication - Started DemoApplication in 34.864 seconds (JVM running for 40.031)
+2019-11-13 09:03:41,191 [http-nio-8888-exec-3] []  INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-13 09:03:41,191 [http-nio-8888-exec-3] []  INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-11-13 09:03:41,235 [http-nio-8888-exec-3] []  INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 44 ms
+2019-11-13 09:03:49,380 [http-nio-8888-exec-3] [6C244D12EFDDA0544D2324405DD52493]  INFO  com.example.demo.jwt.LoginController - 登录成功！生成token！
