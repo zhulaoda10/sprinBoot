@@ -9,5 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface IFeginService {
  
     @RequestMapping(value = "/provider/getUser")
-    public String getUser(@RequestParam("id") Integer id);
+    //注意此处的方法名可以和服务提供者的不一致，因为是通过@FeignClient中的属性值和@RequestMapping
+    //中的映射值决定的
+    public String getUsers(@RequestParam("id") Integer id);
 }

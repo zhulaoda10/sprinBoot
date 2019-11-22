@@ -13,8 +13,8 @@ public class FeginController {
     @Autowired
     private IFeginService feginService;
 
-    @GetMapping("/getUser")
+    @GetMapping("/getUsers")
     public String getUser(Integer id) {
-        return feginService.getUser(id);
+        return feginService.getUsers(id);
     }
 }
